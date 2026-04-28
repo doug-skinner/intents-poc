@@ -60,6 +60,6 @@ export async function saveIntent(intentsDir: string, intent: Intent): Promise<vo
   }
 
   intent.last_run = new Date().toISOString().split("T")[0];
-  const yaml = Bun.YAML.stringify(intent);
+  const yaml = Bun.YAML.stringify(intent, null, 2);
   await Bun.write(path, yaml);
 }
