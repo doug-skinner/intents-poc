@@ -1,0 +1,4 @@
+github_token_env: GITHUB_PAT
+intents_dir: ./test-intents
+repos:
+  - anthropics/anthropic-sdk-python

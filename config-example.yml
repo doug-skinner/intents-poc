@@ -1,0 +1,6 @@
+# Copy this file and fill in your values. Do not commit to git.
+github_token_env: GITHUB_PAT
+intents_dir: ./my-intents
+repos:
+  - owner/repo-a
+  - owner/repo-b
